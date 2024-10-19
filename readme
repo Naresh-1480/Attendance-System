@@ -1,0 +1,25 @@
+Folder Structure 
+
+Parent Folder 
+│
+├── app.py                      # Main Python backend file handling routes and logic
+├── attendance.csv               # File storing attendance data in CSV format
+├── students_images/             # Folder containing images of students for face recognition
+│
+├── static/                      # Folder for static frontend assets (CSS, JavaScript)
+│   ├── css/                     # Contains stylesheets
+│   │   └── styles.css           # CSS for your web pages
+│   └── js/                      # Contains JavaScript files for frontend interactivity
+│       └── script.js            # Any client-side JavaScript logic
+│
+├── templates/                   # Folder containing HTML templates for various web pages
+│   ├── ams_panel.html           # Attendance Management System panel page
+│   ├── capture_attendance.html  # Page for capturing attendance via camera
+│   ├── dashboard.html           # Dashboard page for viewing summary information
+│   ├── login.html               # Login page for teachers or admins
+│   ├── signup.html              # Signup page for new users
+│
+└── uploads/                     # Folder storing uploaded images
+
+
+To Run : python app.py
